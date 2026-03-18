@@ -1,0 +1,10 @@
+ name : Publish Github Action Example
+ on :
+   push:
+     branches: [main]
+ jobs:
+   demo:
+      runs-on: ubunto-Intest
+      steps:
+      - name: Checkout repository
+        run: echo "test.java"
